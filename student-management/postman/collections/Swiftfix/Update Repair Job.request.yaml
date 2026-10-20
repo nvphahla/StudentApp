@@ -1,0 +1,27 @@
+$kind: http-request
+description: Uncollected JOb
+url: http://localhost:8080/api/jobs/8
+method: PUT
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"customerName\": \"Nhlanhla Mkhwanazi\",\r
+
+    \  \"contactNumber\": \"0827654321\",\r
+
+    \  \"deviceModel\": \"iPhone 16 Pro Max\",\r
+
+    \  \"issueDescription\": \"Phone overheating and is affecting battery\",\r
+
+    \  \"estimatedCost\": 2850.00\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: manager
+    password: "111"
+order: 3446

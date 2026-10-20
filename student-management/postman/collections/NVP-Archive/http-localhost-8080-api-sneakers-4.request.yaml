@@ -1,0 +1,38 @@
+$kind: http-request
+name: http://localhost:8080/api/sneakers
+description: ""
+url: http://localhost:8080/api/sneakers
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"name\": \"Air Jordan 4 Retro Red Metallic\",\r
+
+    \  \"brand\": \"Nike\",\r
+
+    \  \"model\": \"Air Jordan 4\",\r
+
+    \  \"category\": \"Retro Basketball / Lifestyle\",\r
+
+    \  \"collection\": \"COURT ARCHIVE\",\r
+
+    \  \"colorway\": \"White University Red\",\r
+
+    \  \"size\": 8,\r
+
+    \  \"price\": 4899.00,\r
+
+    \  \"stockQuantity\": 5,\r
+
+    \  \"description\": \"Air Jordan 4 Retro featuring a clean white leather upper, metallic red accents.\"\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: nvpadmin
+    password: "12345678"
+order: 6000

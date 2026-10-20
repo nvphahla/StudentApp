@@ -1,0 +1,38 @@
+$kind: http-request
+name: http://localhost:8080/api/sneakers/1
+description: ""
+url: http://localhost:8080/api/sneakers/1
+method: PUT
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"name\": \"Air Jordan 4 Retro Black Cat\",\r
+
+    \  \"brand\": \"Nike\",\r
+
+    \  \"model\": \"Air Jordan 4\",\r
+
+    \  \"category\": \"Retro Basketball / Lifestyle\",\r
+
+    \  \"collection\": \"COURT ARCHIVE\",\r
+
+    \  \"colorway\": \"Black Cat\",\r
+
+    \  \"size\": 8,\r
+
+    \  \"price\": 3500.99,\r
+
+    \  \"stockQuantity\": 8,\r
+
+    \  \"description\": \"Iconic all-black Jordan 4 silhouette.\"\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: nvpadmin
+    password: "12345678"
+order: 1000

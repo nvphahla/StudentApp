@@ -1,0 +1,7 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/api/jobs/overdue?days=7
+method: GET
+queryParams:
+  days: "7"
+order: 3788

@@ -1,0 +1,25 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/api/jobs
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"customerName\": \"Fadiel Alexander\",\r
+
+    \  \"contactNumber\": \"0793456782\",\r
+
+    \  \"deviceModel\": \"ASUS ROG Strix G16\",\r
+
+    \  \"issueDescription\": \"Laptop graphics card overheating and causing the screen to freeze during gaming\",\r
+
+    \  \"estimatedCost\": 4950.00\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: manager
+    password: "111"
+order: 1571

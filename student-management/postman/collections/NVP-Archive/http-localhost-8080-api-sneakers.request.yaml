@@ -1,0 +1,38 @@
+$kind: http-request
+name: http://localhost:8080/api/sneakers
+description: ""
+url: http://localhost:8080/api/sneakers
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \"name\": \"Air Jordan 3 White Cement\",\r
+
+    \"brand\": \"Nike\",\r
+
+    \"model\": \"Air Jordan 3\",\r
+
+    \"category\": \"Retro Basketball / Lifestyle\",\r
+
+    \"collection\": \"COURT ARCHIVE\",\r
+
+    \"colorway\": \"White Cement\",\r
+
+    \"size\": 7,\r
+
+    \"price\": 4599.00,\r
+
+    \"stockQuantity\": 6,\r
+
+    \"description\": \"Classic Air Jordan 3 sneaker.\"\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: nvpadmin
+    password: "12345678"
+order: 3000

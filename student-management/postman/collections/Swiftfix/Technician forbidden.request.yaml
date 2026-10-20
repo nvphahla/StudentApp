@@ -1,0 +1,13 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/api/jobs/9
+method: DELETE
+body:
+  type: json
+  content: '"COLLECTED"'
+auth:
+  type: basic
+  credentials:
+    username: technician
+    password: "12345677"
+order: 15000

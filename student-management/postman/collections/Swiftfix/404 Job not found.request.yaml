@@ -1,0 +1,5 @@
+$kind: http-request
+description: get/validation 404
+url: http://localhost:8080/api/jobs/9999
+method: GET
+order: 3856

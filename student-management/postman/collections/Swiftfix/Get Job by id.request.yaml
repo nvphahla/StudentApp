@@ -1,0 +1,10 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/api/jobs/1
+method: GET
+auth:
+  type: basic
+  credentials:
+    username: manager
+    password: "111"
+order: 3080

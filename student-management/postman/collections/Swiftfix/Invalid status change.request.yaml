@@ -1,0 +1,13 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/api/jobs/1/status
+method: PATCH
+body:
+  type: json
+  content: '"COLLECTED"'
+auth:
+  type: basic
+  credentials:
+    username: manager
+    password: "111"
+order: 3892

@@ -1,0 +1,13 @@
+$kind: http-request
+description: Status change
+url: http://localhost:8080/api/jobs/10/status
+method: PATCH
+body:
+  type: json
+  content: "\"READY\"\r\n"
+auth:
+  type: basic
+  credentials:
+    username: manager
+    password: "111"
+order: 3505

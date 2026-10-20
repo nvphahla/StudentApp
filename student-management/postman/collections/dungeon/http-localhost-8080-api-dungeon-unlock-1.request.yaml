@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:8080/api/dungeon/unlock
+description: ""
+url: http://localhost:8080/api/dungeon/unlock
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"spellName\": \"\",\r
+
+    \  \"manaCost\": -20,\r
+
+    \  \"secretPassphrase\": \"magic\"\r
+
+    }\r\n"
+order: 2000

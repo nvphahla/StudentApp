@@ -1,0 +1,38 @@
+$kind: http-request
+name: http://localhost:8080/api/sneakers
+description: ""
+url: http://localhost:8080/api/sneakers
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"name\": \"Travis Scott x Nike Air Force 1 Low Sail\",\r
+
+    \  \"brand\": \"Nike\",\r
+
+    \  \"model\": \"Air Force 1 Low\",\r
+
+    \  \"category\": \"Collaborative / Lifestyle\",\r
+
+    \  \"collection\": \"ALTERED CLASSICS\",\r
+
+    \  \"colorway\": \"Sail\",\r
+
+    \  \"size\":7,\r
+
+    \  \"price\": 18999.00,\r
+
+    \  \"stockQuantity\": 2,\r
+
+    \  \"description\": \"The iconic Travis Scott collaboration featuring a Sail canvas upper, interchangeable Swoosh designs, reflective detailing and signature Cactus Jack styling. A true collector's grail.\"\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: nvpadmin
+    password: "12345678"
+order: 11000

@@ -1,0 +1,38 @@
+$kind: http-request
+name: http://localhost:8080/api/sneakers
+description: ""
+url: http://localhost:8080/api/sneakers
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"name\": \"Salomon XT-6 Black Silver\",\r
+
+    \  \"brand\": \"Salomon\",\r
+
+    \  \"model\": \"XT-6\",\r
+
+    \  \"category\": \"Technical / Lifestyle\",\r
+
+    \  \"collection\": \"TERRAIN DIVISION\",\r
+
+    \  \"colorway\": \"Black Silver\",\r
+
+    \  \"size\": 10.0,\r
+
+    \  \"price\": 3299.00,\r
+
+    \  \"stockQuantity\": 8,\r
+
+    \  \"description\": \"Technical trail-inspired sneaker featuring a performance-focused design and everyday lifestyle.\"\r
+
+    }\r\n"
+auth:
+  type: basic
+  credentials:
+    username: nvpadmin
+    password: "12345678"
+order: 10000

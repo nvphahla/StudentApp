@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://localhost:8080/api/sneakers
+description: ""
+url: http://localhost:8080/api/sneakers
+method: GET
+auth:
+  type: basic
+  credentials:
+    username: nvpadmin
+    password: "12345678"
+order: 4000
